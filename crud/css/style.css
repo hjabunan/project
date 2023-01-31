@@ -1,0 +1,89 @@
+body{
+    background: #41acf3a4;
+}
+
+header{
+    font-weight: 800;
+    font-family: 'Lucida Sans Regular';
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+table{ 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+    position: relative;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+tr:nth-of-type(odd) { 
+	background: #eee; 
+}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.but-add{
+    position: static;
+    float: right;
+    margin-right: 50px;
+}
+
+form .dbl-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.dbl-field .field {
+    height: 50px;
+    position: relative;
+    width: calc(100% / 2 - 13px);
+}
+
+form .field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 18px 0 48px;
+    font-size: 16px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+form .field input::placeholder{
+    color: #bfbfbf;
+}
+
+.addf{
+    position: relative;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.par-div i {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    color: #bfbfbf;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+form .field input:focus ~ i {
+    color: #0D6EFD;
+}

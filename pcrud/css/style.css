@@ -1,0 +1,41 @@
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30pt;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+
+ div .mn-wholebody{
+    margin: auto;
+    width: 70%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+
+div .mn-div-add{
+    position: absolute;
+    right: 180px;
+    width: 300px;
+    margin-top: -20px;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+}
+
+
+
+table #table-show{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table-show th, #table-show tr, #table-show td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
